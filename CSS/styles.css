@@ -5,9 +5,17 @@ body {
     background-color: #f6c177;
 }
 
+img, input[type=image] {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    position: relative;
+}
+
 .container {
     height: 480px;
-    padding: 20px 0;
+    padding: 20px 50%;
+    left: 50%;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
@@ -15,7 +23,8 @@ body {
 }
 
 .flex {
-    margin: auto
+    margin: auto;
+    position: relative;
 }
 
 #box {
@@ -36,4 +45,26 @@ body {
     top: 0;
     left: 0;
     background-color: #ebbcba;
+} 
+
+.navigation a {
+    padding: 32px 32px 32px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: #818181;
 }
+  
+.navigation a:hover {
+    color: #9ccfd8;
+}
+
+@media screen and (max-width: 480px), (max-height: 480px) {
+    .navigation {
+        width: 100%;
+        height: 20px;
+    }
+    .navigation a {
+        font-size: 12px;
+    }
+} 
