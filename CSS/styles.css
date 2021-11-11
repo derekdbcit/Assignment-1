@@ -1,0 +1,39 @@
+body {
+    height: 100%;
+    font-family: 'Consolas';
+    font-size: 18px;
+    background-color: #f6c177;
+}
+
+.container {
+    height: 480px;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    color: black;
+}
+
+.flex {
+    margin: auto
+}
+
+#box {
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    color: black;
+    background-color: #9ccfd8;
+} 
+
+.navigation {
+    width: 200px;
+    height: 100%;
+    padding-top: 20px;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ebbcba;
+}
