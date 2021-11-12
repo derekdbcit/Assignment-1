@@ -18,10 +18,10 @@ img, input[type=image] {
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
-    color: black;
+    color: #191724;
 }
 
-.flex, input[type=text], input[type=submit] {
+.flex {
     margin: auto;
     position: relative;
 }
@@ -30,7 +30,7 @@ img, input[type=image] {
     width: 200px;
     height: 80px;
     text-align: center;
-    color: black;
+    color: #191724;
     background-color: #9ccfd8;
 } 
 
@@ -57,6 +57,24 @@ img, input[type=image] {
     color: #9ccfd8;
 }
 
+input[type=text] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    box-sizing: content-box;
+    border-width: 1px;
+    border-color: #191724;
+}
+
+input[type=submit] {
+    width: 25%;
+    padding: 8px 8px;
+    margin: 4px 0;
+    box-sizing: content-box;
+    border-width: 1px;
+    border-color: #191724;
+}
+
 @media screen and (max-width: 480px), (max-height: 480px) {
     .navigation {
         display: flex;
@@ -74,4 +92,6 @@ img, input[type=image] {
         padding: 64px 16px;
         align-items: center;
     }
+
+
 }
